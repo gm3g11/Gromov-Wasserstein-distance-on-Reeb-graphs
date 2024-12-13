@@ -18,7 +18,7 @@ Reeb graphs represent the topological evolution of scalar fields. Traditional co
 2. Assign persistence diagram-based Borel probabilities.
 3. Calculate the optimal transport plan and RGWp distance.
 
-![Workflow Diagram](path/to/workflow-figure.png)
+![Workflow Diagram](./workflow.png)
 
 ---
 
