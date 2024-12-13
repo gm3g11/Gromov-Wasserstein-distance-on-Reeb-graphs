@@ -40,6 +40,8 @@ python Create_Reeb_graph_and_calculate_Reeb_Radius.ipynb
 
 ## Usage
 ![Reeb graph on the 3D point cloud](./Reeb_graph_point_cloud.png)
+
+
 For the real application (including the Reeb graph construction on the 3D point cloud), use the following command:
    ```bash
    cd code
