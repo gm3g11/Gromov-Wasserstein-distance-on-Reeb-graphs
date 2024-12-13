@@ -23,9 +23,37 @@ Reeb graphs represent the topological evolution of scalar fields. Traditional co
 ---
 
 ## Installation
-
-1. Clone this repository:
+Clone this repository:
    ```bash
    git clone https://github.com/gm3g11/Gromov-Wasserstein-distance-on-Reeb-graphs.git
    cd Gromov-Wasserstein-distance-on-Reeb-graphs
+   ```
+---
+
+## Example
+
+The example code includes the entire workflow
+```bash
+python Create_Reeb_graph_and_calculate_Reeb_Radius.ipynb
+```
+---
+
+## Usage
+![Reeb graph on the 3D point cloud](./Reeb_graph_point_cloud.png)
+For the real application (including the Reeb graph construction on the 3D point cloud), use the following command:
+   ```bash
+   cd code
+   python SHREC_propose.py
+   python modelnet10_propose.py
+   python meshe_propose.py
+   ```
+---
+
+## Benchmark methods and ablation study
+The "code" folder also includes the compared methods: DRG, bottleneck distance, and (approximate) Graph Edit Distance (GED) on different datasets. It also contains the code for the ablation study:
+```bash
+   cd code
+   python SHREC_propose_ablation.py
+```
+
 
