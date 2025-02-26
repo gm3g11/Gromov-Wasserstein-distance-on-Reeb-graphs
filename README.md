@@ -34,7 +34,7 @@ Clone this repository:
 
 The example code includes the entire workflow
 ```bash
-python Create_Reeb_graph_and_calculate_Reeb_Radius.ipynb
+python Prpposed Gromov-Wasserstein distance between two Reeb graphs.ipynb
 ```
 ---
 
