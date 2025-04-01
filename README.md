@@ -32,9 +32,9 @@ Clone this repository:
 
 ## Example
 
-The example code includes the entire workflow
+The example code includes the entire workflow to calculate GWD between two Reeb graphs:
 ```bash
-python Prpposed Gromov-Wasserstein distance between two Reeb graphs.ipynb
+python Prpposed_Gromov_Wasserstein_distance_between_two_Reeb_graphs_with_Persistent_Image.ipynb
 ```
 ---
 
