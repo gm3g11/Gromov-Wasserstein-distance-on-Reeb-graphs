@@ -9,7 +9,7 @@ This repository implements the Gromov-Wasserstein distance (GW) for comparing Re
 Reeb graphs represent the topological evolution of scalar fields. Traditional comparison metrics are often computationally intensive or fail to capture significant features. Our RGWp-based approach offers:
 
 - **Symmetric-Reeb Radius**: Resolves asymmetry issues in traditional metrics.
-- **Persistence Diagram-Based Probabilities**: Focuses on topologically critical features.
+- **Persistence Image-Based Probabilities**: Focuses on topologically critical features.
 - **Polynomial Time Complexity**: Suitable for large-scale applications.
 
 ### Workflow
@@ -51,11 +51,19 @@ For the real application (including the Reeb graph construction on the 3D point 
    ```
 ---
 
-## Benchmark methods and ablation study
+## Ablation Study
 The "code" folder also includes the compared methods: DRG, bottleneck distance, and (approximate) Graph Edit Distance (GED) on different datasets. It also contains the code for the ablation study:
 ```bash
-   cd code
-   python SHREC_propose_ablation.py
+cd code
+python SHREC_propose_ablation.py
 ```
+
+## Hyperparameter Analysis
+In our proposed $RGW_p$ method, the primary hyperparameters are inherited from the Persistence Image (PI) construction. These three key parameters are: the Gaussian kernel bandwidth ($\sigma$), the PI grid resolution ($N$), and the weighting power ($w_p$) applied to persistence values. We also conduct sensitivity analysis of these three hyperparameters across our test datasets.
+```bash
+python sensitivity_anlysis.py
+```
+
+
 
 
